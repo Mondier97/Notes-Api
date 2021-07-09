@@ -31,5 +31,7 @@ dotnet run
 ```
 
 On running the application, a webpage with the Swagger framework should appear. It has a gui for testing all of our api endpoints.
+If it does not, please visit https://localhost:44395/swagger/index.html for iis servers and https://localhost:5001/swagger/index.html for non iis servers.
+The api itself can be found under https://localhost:{PORT}/api/Notes.
 
 A separate unit test project also exists using the NUnit framework.
