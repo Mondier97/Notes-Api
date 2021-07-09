@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boomtown Notes Api", "Boomtown Notes Api\Boomtown Notes Api.csproj", "{F522E37E-6FB7-473E-A8F0-422CADB79309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomtown Notes Unit Tests", "Boomtown Notes Unit Tests\Boomtown Notes Unit Tests.csproj", "{AF1F3698-1909-4E6F-8A83-866EDE28684B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F522E37E-6FB7-473E-A8F0-422CADB79309} = {F522E37E-6FB7-473E-A8F0-422CADB79309}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F522E37E-6FB7-473E-A8F0-422CADB79309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F522E37E-6FB7-473E-A8F0-422CADB79309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F522E37E-6FB7-473E-A8F0-422CADB79309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F522E37E-6FB7-473E-A8F0-422CADB79309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1F3698-1909-4E6F-8A83-866EDE28684B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1F3698-1909-4E6F-8A83-866EDE28684B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1F3698-1909-4E6F-8A83-866EDE28684B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1F3698-1909-4E6F-8A83-866EDE28684B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EC126D7-5DE0-49E3-B7F7-BE930B012BD3}
+	EndGlobalSection
+EndGlobal
